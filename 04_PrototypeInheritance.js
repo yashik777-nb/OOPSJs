@@ -31,7 +31,7 @@ const customer1 = new Customer("Tom", "Smith", "1234", "standard");
 console.log(customer1);
 console.log(customer1.greeting());
 
-// Customer Greeting
+// Customer Greeting - Overrides Person Greeting
 Customer.prototype.greeting = function () {
   return `Hello Customer, ${this.firstName} ${this.lastName}`;
 };
