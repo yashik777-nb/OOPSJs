@@ -28,6 +28,7 @@ const getSum1 = function (x, y) {
   return x + y;
 };
 
+// Constructors
 const getSum2 = new Function("x", "y", "return x+ y");
 
 console.log(getSum1(1, 2), getSum2(3, 4));

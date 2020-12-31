@@ -19,9 +19,9 @@ class Customer extends Person {
     this.phone = phone;
     this.mebership = membership;
   }
-  //   static getMembershipCost() {
-  //     return 500;
-  //   }
+  static getMembershipCost() {
+    return 500;
+  }
 }
 
 const john = new Customer("John", "James", "123", "good");
